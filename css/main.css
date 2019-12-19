@@ -20,8 +20,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0173ba', end
 
 /*메인 프로필 움직이는 배경*/
 .bg{
-	clip-path: ellipse(52% 42% at 70% 27%);
-	
+	/*clip-path: ellipse(52% 42% at 70% 27%);*/
+	text-align: right;
 }
 /*
 .box {
