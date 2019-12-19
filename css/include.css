@@ -3,7 +3,7 @@
 /*헤더*/
 #header{
 	width:100%;
-	position: fixed;
+	position: absolute;
 	z-index: 1;
 }
 #header h1{
