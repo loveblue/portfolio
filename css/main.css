@@ -324,12 +324,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0173ba', end
 	position: relative;
 }
 .con02Left .box1 p{
-	width:47%;
 	position: absolute;
 	bottom: 2%;
-	left: 2%;
-	text-align: left;
+	left: 46%;
 }
+
+.con02Left .box3{
+	position: relative;
+}
+.con02Left .box3 p{
+	position: absolute;
+	bottom: 2%;
+	left: 34%;
+}
+
 .con02Left .box5{
 	position: relative;
 }
@@ -355,6 +363,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0173ba', end
 }
 .con02Right .box2 p{
 	writing-mode: vertical-rl;
+	position: absolute;
+	bottom: 2%;
+	left: 2%;
+}
+
+.con02Right .box4{
+	position: relative;
+}
+.con02Right .box4 p{
+	position: absolute;
+	bottom: 2%;
+	left: 2%;
+}
+
+.con02Right .box6{
+	position: relative;
+}
+.con02Right .box6 p{
 	position: absolute;
 	bottom: 2%;
 	left: 2%;
