@@ -2,6 +2,8 @@
 
 body, h1, h2, h3, h4, h5, p, dl, dt, dd{
 	margin: 0;
+	font-family: 'NotoSans';
+	-ms-font-family: 'NotoSans';
 }
 
 a{
@@ -27,5 +29,9 @@ ul{
 
 #wrap{
 	background: url(../images/main/bg_wrap.png) no-repeat center;
-	background-size:cover;
+	background-size: cover;
+}
+
+img{
+	border: 0;
 }

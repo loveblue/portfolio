@@ -15,7 +15,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0173ba', end
 
 .main{
 	position: relative;
-	margin-bottom:15%;
+	margin-bottom:10%;
 }
 
 /*메인 프로필 움직이는 배경*/
@@ -75,27 +75,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0173ba', end
 
 
 /*메인프로필 텍스트*/
-.main{
-	position: relative
-}
-
 .main .pImg{
-	width: 17%;
-	padding-top: 17%;
+	width: 25%;
+	padding-top: 25%;
 	border-radius: 50%;
 	background: url(../images/main/img_profile.png) no-repeat center center;
 	background-size: cover;
 	text-indent: -9999px;
 	position: absolute;
-	top: 20%;
-	left: 20%;
+	top: 25%;
+	left: 15%;
 	z-index: 3
 }
 
 .main .pText{
 	width:40%;
 	position: absolute;
-	top: 50%;
+	top: 60%;
 	right: 15%;
 	z-index: 3
 }
@@ -106,6 +102,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0173ba', end
 .main .pText h2 p{
 	margin-top: 5%;
 	font-size:1.25rem;
+	font-weight:500
 }
 
 /*로고 소개*/
@@ -120,14 +117,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0173ba', end
 	background: url(../images/main/bg_logoLine.png) no-repeat center center;
 	background-size: cover;
 	float: left;
-	margin-right: 40%;
 }
 .con01 h3{
 	width: 50%;
 	color: #fff;
 	display: inline-block;
+	margin-left: 15%;
 }
-.con01 h3 p{}
+.con01 h3 p{
+	margin-top: 6%;
+	font-weight: 500;
+}
 
 .con01 .moreBtn{
 	width: 130px;
@@ -137,7 +137,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0173ba', end
 	text-align: center;
 	position: absolute;
 	bottom: 0;
-	left: 49%;
+	left: 44%;
 }
 .con01 .moreBtn a{
 	color:#fff;
@@ -150,7 +150,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0173ba', end
 
 /*작품갤러리*/
 .con02{
-	min-width: 1200px;
 	height: 100%;
 	position: relative;
 	margin-top: 15%;
@@ -323,10 +322,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0173ba', end
 .con02Left .box1{
 	position: relative;
 }
-.con02Left .box1 p{
+
+
+.box1 .bgLayer{
+	width: 500px;
+	height: 500px;
+	background: rgba(0,0,0,0.3);
 	position: absolute;
-	bottom: 2%;
-	left: 46%;
+	right: 0;
+	display: none;
+}
+.box1 .bgLayer p{
+	color:#fff;
+	text-align: center;
+	line-height: 500px;
+}
+.con02Left .box1:hover .bgLayer, .bgLayer p{
+	display:block;
 }
 
 .con02Left .box3{
@@ -337,16 +349,41 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0173ba', end
 	bottom: 2%;
 	left: 34%;
 }
+.box3 .bgLayer{
+	width: 600px;
+	height: 400px;
+	background: rgba(0,0,0,0.3);
+	position: absolute;
+	right: 0;
+	display: none;
+}
+.box3 .bgLayer p{
+	color:#fff;
+	text-align: center;
+	line-height: 400px;
+}
+.con02Left .box3:hover .bgLayer, .bgLayer p{
+	display:block;
+}
 
 .con02Left .box5{
 	position: relative;
 }
-.con02Left .box5 p{
-	width:47%;
-	writing-mode: vertical-rl;
+.box5 .bgLayer{
+	width: 500px;
+	height: 1200px;
+	background: rgba(0,0,0,0.3);
 	position: absolute;
-	bottom: 2%;
-	left: 2%;
+	right: 0;
+	display: none;
+}
+.box5 .bgLayer p{
+	color:#fff;
+	text-align: center;
+	line-height: 1200px;
+}
+.con02Left .box5:hover .bgLayer, .bgLayer p{
+	display:block;
 }
 
 .con02Right{
@@ -361,11 +398,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0173ba', end
 .con02Right .box2{
 	position: relative;
 }
-.con02Right .box2 p{
-	writing-mode: vertical-rl;
+.box2 .bgLayer{
+	width: 500px;
+	height: 1200px;
+	background: rgba(0,0,0,0.3);
 	position: absolute;
-	bottom: 2%;
-	left: 2%;
+	right: 0;
+	display: none;
+}
+.box2 .bgLayer p{
+	color:#fff;
+	text-align: center;
+	line-height: 1200px;
+}
+.con02Left .box2:hover .bgLayer, .bgLayer p{
+	display:block;
 }
 
 .con02Right .box4{

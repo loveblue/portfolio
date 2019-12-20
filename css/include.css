@@ -7,7 +7,7 @@
 	z-index: 1;
 }
 #header h1{
-	width: 150px;
+	width: 100px;
 	height: 100%;
 	line-height:80px;
 	background: url(../images/common/logo.png) no-repeat center center;
@@ -22,12 +22,12 @@
 #header .gnb{
 	position: absolute;
 	top: 0;
-	right:23%;
+	right:13%;
 }
 #header .gnb li{
 	line-height: 80px;
 	float: left;
-	padding-left: 30px;
+	padding-left: 80px;
 }
 #header .gnb li a{
 	font-weight: 600;
@@ -41,10 +41,7 @@
 	color: #fff;
 }
 
-.fInfo{
-	margin-top: 5%;
-	
-}
+.fInfo{}
 .fInfo dt{
 	font-size: 1.375rem;
 	font-weight:600;
