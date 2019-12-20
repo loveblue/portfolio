@@ -422,6 +422,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0173ba', end
 	position: absolute;
 	bottom: 2%;
 	left: 2%;
+	display: none;
 }
 
 .con02Right .box6{
