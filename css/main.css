@@ -344,11 +344,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0173ba', end
 .con02Left .box3{
 	position: relative;
 }
-.con02Left .box3 p{
-	position: absolute;
-	bottom: 2%;
-	left: 34%;
-}
+
 .box3 .bgLayer{
 	width: 600px;
 	height: 400px;
@@ -403,7 +399,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0173ba', end
 	height: 1200px;
 	background: rgba(0,0,0,0.3);
 	position: absolute;
-	right: 0;
+	left: 0;
 	display: none;
 }
 .box2 .bgLayer p{
@@ -411,26 +407,46 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0173ba', end
 	text-align: center;
 	line-height: 1200px;
 }
-.con02Left .box2:hover .bgLayer, .bgLayer p{
+.con02Right .box2:hover .bgLayer, .bgLayer p{
 	display:block;
 }
 
 .con02Right .box4{
 	position: relative;
 }
-.con02Right .box4 p{
+.box4 .bgLayer{
+	width: 600px;
+	height: 400px;
+	background: rgba(0,0,0,0.3);
 	position: absolute;
-	bottom: 2%;
-	left: 2%;
+	left: 0;
 	display: none;
+}
+.box4 .bgLayer p{
+	color:#fff;
+	text-align: center;
+	line-height: 400px;
+}
+.con02Right .box4:hover .bgLayer, .bgLayer p{
+	display:block;
 }
 
 .con02Right .box6{
 	position: relative;
 }
-.con02Right .box6 p{
+.box6 .bgLayer{
+	width: 500px;
+	height: 500px;
+	background: rgba(0,0,0,0.3);
 	position: absolute;
-	bottom: 2%;
-	left: 2%;
+	left: 0;
 	display: none;
+}
+.box6 .bgLayer p{
+	color:#fff;
+	text-align: center;
+	line-height: 500px;
+}
+.con02Right .box6:hover .bgLayer, .bgLayer p{
+	display:block;
 }
