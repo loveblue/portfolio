@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+/*반응형 웹뷰*/
+.panel, .mCon02Menu04, .mMainCon03, .footerInfo{display:none;}
+
+@media screen and (max-width: 1920px/*max-height는 설정한 최대값까지는 보이게*/){
+	.bg img{width: 80%;}
+}
+
+@media screen and (max-width:1280px/*max-height는 설정한 최대값까지는 보이게*/){
+	body{width: 100%;}
+	.bg img{width: 80%;}
+	.inner{width: 100%;}
+	.main .pImg{width: 30%; padding-top: 30%; top: 30%; left: 10%;}
+	.main .pText{width: 38%; top: 70%; right: 11%;}
+	.con01 .logo{width: 30%; margin-left: 9%;}
+	.con01 h3{width: 36%; margin-left: 12%;}
+	.con01 h3 p{font-weight: 400; margin-top: 7%;}
+	.con01 .moreBtn{width: 100px; height: 40px; left: 51%; line-height: 40px;}
+	.con02 img{width: 80%}
+	.con02Wrap li a{font-size: 0.875rem;}
+	.con02Wrap li span{font-size: 0.9375rem;}
+	#footer{margin-top:15%;}
+	.fInfo{text-align: center}
+	#footer .copy{font-size: 14px = 0.875rem;}
+}
+
+@media screen and (max-width:1024px/*max-height는 설정한 최대값까지는 보이게*/){
+	body{width: 100%;}
+	#header h1{margin-left:5%;}
+	#header .gnb{right: 10%;}
+	#header .gnb li{padding-left: 50px}
+	.bg img{width: 80%;}
+	.inner{width: 100%;}
+	.main .pImg{width: 30%; padding-top: 30%; top: 30%; left: 15%;}
+	.main .pText{width: 35%; top: 70%; right: 13%;}
+	.con01{margin-top: 30%;}
+	.con01 .logo{width: 15%; margin-left: 13%;}
+	.con01 img{width:210%;}
+	.con01 h3{width: 35%; margin-left: 7%;}
+	.con01 .moreBtn{width: 100px; height: 30px; left: 52%; line-height: 30px;}
+	.con02 img{width: 70%}
+	.con02Wrap li a{font-size: 0.875rem;}
+	.con02Wrap li span{font-size: 0.9375rem;}
+	#footer{margin-top:20%;}
+	.fInfo{text-align: center}
+	#footer .copy{font-size: 14px = 0.875rem;}
+}
