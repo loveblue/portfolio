@@ -35,7 +35,7 @@
 @font-face {
     font-family: 'NotoSans';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     src: local('NotoSans'),
         url('NotoSans-Regular.woff2') format('woff2'), 
         url('NotoSans-Regular.woff') format('woff'),
@@ -46,7 +46,7 @@
 @font-face {
     font-family: 'NotoSans';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     src: local('NotoSans'),
         url('NotoSans-Medium.woff2') format('woff2'), 
         url('NotoSans-Medium.woff') format('woff'),
@@ -59,16 +59,6 @@
     font-family: 'NotoSans';
     font-style: normal;
     font-weight: 700;
-    src: local('NotoSans'),
-        url('NotoSans-SemiBold.woff') format('woff'),
-        url('NotoSans-SemiBold.ttf') format('truetype'),
-        url('NotoSans-SemiBold.otf') format('opentype'),
-}
-
-@font-face {
-    font-family: 'NotoSans';
-    font-style: normal;
-    font-weight: 800;
     src: local('NotoSans'),
         url('NotoSans-Bold.woff2') format('woff2'), 
         url('NotoSans-Bold.woff') format('woff'),

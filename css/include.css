@@ -1,62 +1,35 @@
-@charset 'utf-8';
+@charset "utf-8";
 
-/*헤더*/
 #header{
-	width:100%;
-	position: absolute;
-	z-index: 1;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 20;
 }
+
 #header h1{
-	width: 100px;
-	height: 100%;
-	line-height:80px;
-	background: url(../images/common/logo.png) no-repeat center center;
-	background-size: 60px;
-	text-indent: -9999px;
-	margin-left:7%;
+    width: 64px;
+    height: 41px;
+    background: url(../images/common/logo_header.png) no-repeat center center;
+    text-indent: -9999px;
+    float: left;
+    padding: 40px 50px;
 }
 #header h1 a{
-	display: block;
+    display: block;
 }
 
-#header .gnb{
-	position: absolute;
-	top: 0;
-	right:13%;
+.gnb{
+    overflow: hidden;
+    text-align: center;
+    margin-left: 15%;;
 }
-#header .gnb li{
-	line-height: 80px;
-	float: left;
-	padding-left: 80px;
+.gnb li{
+    line-height: 120px;
+    float: left;
+    padding-right: 40px;
 }
-#header .gnb li a{
-	font-weight: 600;
-	color: #fff;
-	display: block;
-}
-
-/*푸터*/
-#footer{
-	margin-top:10%;
-	color: #fff;
-}
-
-.fInfo{}
-.fInfo dt{
-	font-size: 1.375rem;
-	font-weight:600;
-	padding-bottom:2%;
-}
-.fInfo dl{
-	font-size: 1.125rem;
-	font-weight: 400;
-	padding-bottom:1%;
-}
-.fInfo dl span{
-	margin-left: 2%;
-}
-
-#footer .copy{
-	padding:5% 0;
-	text-align: center;
+.gnb li a{
+    font-weight: 700;
+    color: #fff
 }
