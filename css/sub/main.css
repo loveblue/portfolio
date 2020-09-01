@@ -104,38 +104,44 @@
 /*푸터*/
 #footer{
     margin-top: 15%;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
 }
 .fLogo{
-    float: left;
+    float: right;
     vertical-align: middle;
+    margin-top: 5%;
 }
-.fLogo img{}
+.fLogo img{
+    width: 60%;
+}
+.fLogo a{
+    display: block;
+}
 
 .fInfo{
     color: #cca26c;
-    text-align: right;
+    text-align: left;
 }
 .fInfo li{
-    float: right;
+    float: left;
 }
 .fInfo img{
     vertical-align: middle;
-}
-.fInfo span{
-    display: none;
-}
-.fInfo a{
-    display: block;
-}
-.fInfo a:hover .fText{
-    display: block;
+    width: 8%;
 }
 
-.fCall{
-    margin-left: 3%;
+.fInfo a{
+    display: block;
+    color: #cca26c;
 }
-.fCall img{}
+
+
+.fMail{
+    margin-left: 7%;
+}
+.fCall img{
+    width: 15%;
+}
 .fCall span{}
 
 .fMail{}
